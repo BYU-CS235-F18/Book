@@ -4,8 +4,8 @@ using namespace std;
 
 class Book {
  protected:
-  string title;
   string author;
+  string title;
 public:
   Book(string t, string a) : title(t), author(a) {}
   string getTitle() const { return title; }

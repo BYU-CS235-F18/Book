@@ -2,6 +2,7 @@
 #include <vector>
 #include "print.h"
 #include "Book.h"
+#include "Book.h"
 #include <algorithm>
 using namespace std;
 
@@ -10,7 +11,9 @@ int main () {
   Book swift ("Gulliver's Travels", "Swift");
   Book austen ("Pride and Prejudice", "Austen");
   Book twain ("The Adventures of Tom Sawyer", "Twain");
+  
   // twain.title = "foo";
+
   cout << defoe.toString() << endl;
   cout << swift.toString() << endl;
   cout << austen.toString() << endl;
@@ -26,6 +29,7 @@ int main () {
   print(list);
 
   sort(list.begin(), list.end());
-  
+
   print (list);
 }
+
