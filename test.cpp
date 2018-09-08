@@ -2,7 +2,7 @@
 #include <vector>
 #include "print.h"
 #include "Book.h"
-#include "Book.h"
+//#include "Book.h"
 #include <algorithm>
 using namespace std;
 
@@ -27,9 +27,9 @@ int main () {
   list.push_back(austen);
   
   print(list);
-
+  /*
   sort(list.begin(), list.end());
-
   print (list);
+  */
 }
 

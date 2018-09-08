@@ -1,9 +1,9 @@
-#pragma once
+//#pragma once
 #include <iostream>
 using namespace std;
 
 class Book {
- protected:
+protected:
   string author;
   string title;
 public:
@@ -13,7 +13,9 @@ public:
   void setTitle(string title);
   void setAuthor(string author);
   string toString() const;
+  /*
   bool operator < (const Book& bk) const {
         return (author < bk.author);
   }
+  */
 };
