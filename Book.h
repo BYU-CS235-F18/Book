@@ -1,4 +1,4 @@
-//#pragma once
+#pragma once // Try deleting this and compiling
 #include <iostream>
 using namespace std;
 
